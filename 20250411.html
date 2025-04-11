@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-TW">
   <head>
-    <title>A-Frame 3D Basic Example</title>
     <title>Web AR Example</title>
-        <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-        <script src="https://cdn. jsdelivr.net/gh/AR-js-org/AR. js/aframe/build/aframe-ar.js"></script>
-  </head>
- <body>
-<a-scene embedded arjs="sourceType: webcam;">
-<a-marker preset="hiro">
-      <a-box position="-1 1 -3" rotation="0 45 0" color="#CDCD9A"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#C48888"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5"color="#FF9797"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="6" height="6"color="#ACD6FF"></a-plane>
-      <a-sky color="#ECECEC"></a-sky>
-      <a-scene embedded arjs="sourceType: webcam;">
-       </a-marker>
-<a-entity camera></a-entity>
-</a-scene>
-</body>
+     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.js"></script>
+    </head> 
+    <body>
+      <a-scene>    
+         <a-box position="-1 1 -3" rotation="0 45 0" color="#ffc0cb"></a-box> 
+         <a-sphere position="0 1.25 -5" radius="1.25" color="#f4a460"></a-sphere></a-sphere>
+         <a-cylinder position="1 0:75 -3" radius="0.5" height="1.5" color="#3cb371"></a-cylinder>
+         <a-plane position="0 0-4" rotation="-90 0 6" width="6" height="6" color="#bc8f8f"></a-plane>
+         <a-sky color="#b0c4de"></a=sky>
+           <body>
+            
+             <a-scene embedded arjs="sourceType: webcam;">
+             <a-marker preset="hiro">
+             <a-box position="0 0.5 0" rotation="0 45 0"
+              color="#4CC3D9"></a-box>
+           </a-marker>
+           <a-entity camera></a-entity>
+           </a-scene>
+         </body>
+    </html>
+    </a-scene>
+  </body>
 </html>
 
